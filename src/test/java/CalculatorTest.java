@@ -168,7 +168,7 @@ public class CalculatorTest {
         }
 
         @Test
-        void UnknownOperatorThrowsException() {
+        void unknownOperatorThrowsException() {
             assertThatThrownBy(() -> Calculator.resultByPostfix(Calculator.infixToPostfix(new ArrayList<>(List.of("5", "&", "3"))))).isInstanceOf(NumberFormatException.class);
         }
 

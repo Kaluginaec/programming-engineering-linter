@@ -6,5 +6,10 @@
     <module name="TreeWalker">
         <module name="UnusedImports"/>
         <module name="RedundantModifier"/>
+	<module name="RedundantImport"/>
+   	<module name="TypeName"/>
+    	<module name="MethodName"/>
+    	<module name="EmptyBlock"/>
+	 <!--<module name="NeedBraces"/>-->
     </module>
 </module>
