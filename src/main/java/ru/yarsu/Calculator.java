@@ -5,7 +5,7 @@ import java.util.*;
 public class Calculator {
     private static final Set<String> OPERATORS = Set.of("+", "-", "*", "/", "^", "(", ")");
 
-    public static ArrayList<String> infixToPostfix(ArrayList<String> infix) throws IllegalArgumentException {
+    public static ArrayList<String> infixtoPostfix(ArrayList<String> infix) throws IllegalArgumentException {
         ArrayList<String> postfix = new ArrayList<>();
         Deque<String> stackOfOperators = new ArrayDeque<>();
         for (int i = 0; i < infix.size(); i++) {
