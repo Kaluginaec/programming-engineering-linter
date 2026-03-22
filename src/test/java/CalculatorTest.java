@@ -91,7 +91,7 @@ public class CalculatorTest {
     class ResultByInfix {
         @Test
         void simple() {
-            assertThat(Calculator.resultByPostfix(Calculator.infixToPostfix(new ArrayList<>(List.of("3", "+", "4", "*", "2", "-", "7"))))).isEqualTo(5);
+            assertThat(Calculator.resultByPostfix(Calculator.infixToPostfix(new ArrayList<>(List.of("3", "+", "4", "*", "2", "-", "7"))))).isEqualTo(4);
         }
 
         @Test
